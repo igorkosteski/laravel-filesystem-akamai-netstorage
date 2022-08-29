@@ -8,13 +8,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Laravel\\FilesystemAkamaiNetstorage\\": "src"
+      "IgorGG\\FilesystemAkamaiNetstorage\\": "src"
     }
   },
   "extra": {
     "laravel": {
         "providers": [
-            "Laravel\\FilesystemAkamaiNetstorage"
+            "IgorGG\\FilesystemAkamaiNetstorage\\AkamaiNetstorageServiceProvider"
         ]
     }
 },

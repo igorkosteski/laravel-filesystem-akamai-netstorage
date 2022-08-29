@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\FilesystemAkamaiNetstorage;
+namespace IgorGG\FilesystemAkamaiNetstorage;
 
 use League\Flysystem\Filesystem;
 use Illuminate\Support\Facades\Storage;
