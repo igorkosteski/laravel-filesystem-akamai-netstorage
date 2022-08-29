@@ -28,6 +28,7 @@ return [
            'cpCode'   => env('AKAMAI_CPCODE'),
            'basePath' => env('AKAMAI_BASE_PATH', ''),
            'baseUrl'  => env('AKAMAI_BASE_URL', ''),
+           'timeout'  => env('AKAMAI_TIMEOUT', 300),
         ],
         //...
     ]
