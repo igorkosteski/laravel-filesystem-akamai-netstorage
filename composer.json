@@ -1,0 +1,28 @@
+{
+  "name": "igorkgg/laravel-filesystem-akamai-netstorage",
+  "description": "A Akamai NetStorage filesystem for Laravel.",
+  "require": {
+    "igorkgg/flysystem-akamai-netstorage": "^3.0",
+    "illuminate/support": "^9.0",
+    "illuminate/filesystem": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Laravel\\FilesystemAkamaiNetstorage\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "Laravel\\FilesystemAkamaiNetstorage"
+        ]
+    }
+},
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Igor Kosteski",
+      "email": "igor.kosteski@gmail.com"
+    }
+  ]
+}
