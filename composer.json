@@ -2,9 +2,9 @@
   "name": "igorkgg/laravel-filesystem-akamai-netstorage",
   "description": "A Akamai NetStorage filesystem for Laravel.",
   "require": {
-    "igorkgg/flysystem-akamai-netstorage": "^3.0",
-    "illuminate/support": "^9.0",
-    "illuminate/filesystem": "^9.0"
+    "igorkgg/flysystem-akamai-netstorage": "^3.0.1",
+    "illuminate/support": "^10.0",
+    "illuminate/filesystem": "^10.0"
   },
   "autoload": {
     "psr-4": {
