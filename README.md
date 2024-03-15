@@ -4,7 +4,7 @@
 
 # Requirement
 
--   Laravel >= 10.0
+-   Laravel >= 11.0
 
 # Installation
 
