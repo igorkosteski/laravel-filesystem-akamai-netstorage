@@ -1,0 +1,300 @@
+[
+    {
+        "status": 404,
+        "headers": {
+            "Accept-Ranges": [
+                "bytes"
+            ],
+            "Content-Length": [
+                "10"
+            ],
+            "Server": [
+                "AkamaiNetStorage"
+            ],
+            "X-N": [
+                "S"
+            ],
+            "Expires": [
+                "Fri, 26 Aug 2022 12:51:33 GMT"
+            ],
+            "Cache-Control": [
+                "max-age=0, no-cache, no-store"
+            ],
+            "Pragma": [
+                "no-cache"
+            ],
+            "Date": [
+                "Fri, 26 Aug 2022 12:51:33 GMT"
+            ],
+            "Connection": [
+                "keep-alive"
+            ],
+            "X-VCR-Recording": [
+                "1661518294"
+            ]
+        },
+        "body": "Tm90IGZvdW5kCg==",
+        "version": "1.1",
+        "reason": "Not Found"
+    },
+    {
+        "status": 200,
+        "headers": {
+            "Accept-Ranges": [
+                "bytes"
+            ],
+            "Content-Length": [
+                "11"
+            ],
+            "Server": [
+                "AkamaiNetStorage"
+            ],
+            "Expires": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Cache-Control": [
+                "max-age=0, no-cache, no-store"
+            ],
+            "Pragma": [
+                "no-cache"
+            ],
+            "Date": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Connection": [
+                "keep-alive"
+            ],
+            "X-VCR-Recording": [
+                "1661518294"
+            ]
+        },
+        "body": "c3VjY2Vzc2Z1bAo=",
+        "version": "1.1",
+        "reason": "OK"
+    },
+    {
+        "status": 404,
+        "headers": {
+            "Accept-Ranges": [
+                "bytes"
+            ],
+            "Content-Length": [
+                "10"
+            ],
+            "Server": [
+                "AkamaiNetStorage"
+            ],
+            "X-N": [
+                "S"
+            ],
+            "Expires": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Cache-Control": [
+                "max-age=0, no-cache, no-store"
+            ],
+            "Pragma": [
+                "no-cache"
+            ],
+            "Date": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Connection": [
+                "keep-alive"
+            ],
+            "X-VCR-Recording": [
+                "1661518295"
+            ]
+        },
+        "body": "Tm90IGZvdW5kCg==",
+        "version": "1.1",
+        "reason": "Not Found"
+    },
+    {
+        "status": 200,
+        "headers": {
+            "Accept-Ranges": [
+                "bytes"
+            ],
+            "Content-Length": [
+                "186"
+            ],
+            "Content-Type": [
+                "text\/xml"
+            ],
+            "Server": [
+                "AkamaiNetStorage"
+            ],
+            "Expires": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Cache-Control": [
+                "max-age=0, no-cache, no-store"
+            ],
+            "Pragma": [
+                "no-cache"
+            ],
+            "Date": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Connection": [
+                "keep-alive"
+            ],
+            "X-VCR-Recording": [
+                "1661518295"
+            ]
+        },
+        "body": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iSVNPLTg4NTktMSI\/Pgo8c3RhdCBkaXJlY3Rvcnk9Ii8yMDczMS9hbm9uLmdyb292eS9jbGllbnRzL3NtbHBzL3N0YWdpbmcvdGVzdGluZy13b3JraW5nLWRpciI+CiA8ZmlsZSB0eXBlPSJkaXIiIG5hbWU9InRlc3RpbmciIG10aW1lPSIxNjYxNTE4MjkzIi8+Cjwvc3RhdD4K",
+        "version": "1.1",
+        "reason": "OK"
+    },
+    {
+        "status": 200,
+        "headers": {
+            "Accept-Ranges": [
+                "bytes"
+            ],
+            "Content-Length": [
+                "186"
+            ],
+            "Content-Type": [
+                "text\/xml"
+            ],
+            "Server": [
+                "AkamaiNetStorage"
+            ],
+            "Expires": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Cache-Control": [
+                "max-age=0, no-cache, no-store"
+            ],
+            "Pragma": [
+                "no-cache"
+            ],
+            "Date": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Connection": [
+                "keep-alive"
+            ],
+            "X-VCR-Recording": [
+                "1661518295"
+            ]
+        },
+        "body": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iSVNPLTg4NTktMSI\/Pgo8c3RhdCBkaXJlY3Rvcnk9Ii8yMDczMS9hbm9uLmdyb292eS9jbGllbnRzL3NtbHBzL3N0YWdpbmcvdGVzdGluZy13b3JraW5nLWRpciI+CiA8ZmlsZSB0eXBlPSJkaXIiIG5hbWU9InRlc3RpbmciIG10aW1lPSIxNjYxNTE4MjkzIi8+Cjwvc3RhdD4K",
+        "version": "1.1",
+        "reason": "OK"
+    },
+    {
+        "status": 200,
+        "headers": {
+            "Accept-Ranges": [
+                "bytes"
+            ],
+            "Content-Length": [
+                "133"
+            ],
+            "Content-Type": [
+                "text\/xml"
+            ],
+            "Server": [
+                "AkamaiNetStorage"
+            ],
+            "Expires": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Cache-Control": [
+                "max-age=0, no-cache, no-store"
+            ],
+            "Pragma": [
+                "no-cache"
+            ],
+            "Date": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Connection": [
+                "keep-alive"
+            ],
+            "X-VCR-Recording": [
+                "1661518295"
+            ]
+        },
+        "body": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iSVNPLTg4NTktMSI\/Pgo8c3RhdCBkaXJlY3Rvcnk9Ii8yMDczMS9hbm9uLmdyb292eS9jbGllbnRzL3NtbHBzL3N0YWdpbmcvdGVzdGluZy13b3JraW5nLWRpci90ZXN0aW5nIi8+Cg==",
+        "version": "1.1",
+        "reason": "OK"
+    },
+    {
+        "status": 200,
+        "headers": {
+            "Accept-Ranges": [
+                "bytes"
+            ],
+            "Content-Length": [
+                "186"
+            ],
+            "Content-Type": [
+                "text\/xml"
+            ],
+            "Server": [
+                "AkamaiNetStorage"
+            ],
+            "Expires": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Cache-Control": [
+                "max-age=0, no-cache, no-store"
+            ],
+            "Pragma": [
+                "no-cache"
+            ],
+            "Date": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Connection": [
+                "keep-alive"
+            ],
+            "X-VCR-Recording": [
+                "1661518295"
+            ]
+        },
+        "body": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iSVNPLTg4NTktMSI\/Pgo8c3RhdCBkaXJlY3Rvcnk9Ii8yMDczMS9hbm9uLmdyb292eS9jbGllbnRzL3NtbHBzL3N0YWdpbmcvdGVzdGluZy13b3JraW5nLWRpciI+CiA8ZmlsZSB0eXBlPSJkaXIiIG5hbWU9InRlc3RpbmciIG10aW1lPSIxNjYxNTE4MjkzIi8+Cjwvc3RhdD4K",
+        "version": "1.1",
+        "reason": "OK"
+    },
+    {
+        "status": 200,
+        "headers": {
+            "Accept-Ranges": [
+                "bytes"
+            ],
+            "Content-Length": [
+                "8"
+            ],
+            "Server": [
+                "AkamaiNetStorage"
+            ],
+            "Expires": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Cache-Control": [
+                "max-age=0, no-cache, no-store"
+            ],
+            "Pragma": [
+                "no-cache"
+            ],
+            "Date": [
+                "Fri, 26 Aug 2022 12:51:34 GMT"
+            ],
+            "Connection": [
+                "keep-alive"
+            ],
+            "X-VCR-Recording": [
+                "1661518295"
+            ]
+        },
+        "body": "ZGVsZXRlZAo=",
+        "version": "1.1",
+        "reason": "OK"
+    }
+]

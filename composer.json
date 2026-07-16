@@ -2,22 +2,33 @@
   "name": "igorkgg/laravel-filesystem-akamai-netstorage",
   "description": "A Akamai NetStorage filesystem for Laravel.",
   "require": {
-    "igorkgg/flysystem-akamai-netstorage": "^3.1.1",
     "illuminate/support": "^12.0",
-    "illuminate/filesystem": "^12.0"
+    "illuminate/filesystem": "^12.0",
+    "league/flysystem": "^3.29",
+    "akamai-open/edgegrid-client": "^2.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.5.3",
+    "phpspec/prophecy-phpunit": "^2.1.0"
   },
   "autoload": {
     "psr-4": {
-      "IgorGG\\FilesystemAkamaiNetstorage\\": "src"
+      "IgorGG\\FilesystemAkamaiNetstorage\\": "src/laravel",
+      "League\\Flysystem\\AkamaiNetStorage\\": "src/netstorage"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "League\\Flysystem\\AkamaiNetStorage\\Tests\\": "tests/netstorage"
     }
   },
   "extra": {
     "laravel": {
-        "providers": [
-            "IgorGG\\FilesystemAkamaiNetstorage\\AkamaiNetstorageServiceProvider"
-        ]
+      "providers": [
+        "IgorGG\\FilesystemAkamaiNetstorage\\AkamaiNetstorageServiceProvider"
+      ]
     }
-},
+  },
   "license": "MIT",
   "authors": [
     {
