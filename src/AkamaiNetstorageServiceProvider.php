@@ -6,21 +6,17 @@ use League\Flysystem\Filesystem;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Filesystem\FilesystemAdapter;
+use Illuminate\Contracts\Foundation\Application;
 use League\Flysystem\AkamaiNetStorage\AkamaiNetStorageAdapter;
 use League\Flysystem\AkamaiNetStorage\AkamaiNetStorageClientFactory;
 
-class AkamaiNetstorageServiceProvider extends ServiceProvider
-{
+class AkamaiNetstorageServiceProvider extends ServiceProvider {
 
-    /**
-     *
-     * @return void
-     */
-    public function boot()
+    public function boot(): void
     {
-        Storage::extend('akamai', function ($app, $config) {
+        Storage::extend('akamai', function (Application $app, array $config) {
             $adapter = new AkamaiNetStorageAdapter(
-                (new AkamaiNetStorageClientFactory($this->paraseConfig($config)))->getClient(),
+                (new AkamaiNetStorageClientFactory(self::parseConfig($config)))->getClient(),
                 $config['cpCode'] ?? '',
                 $config['basePath'] ?? '',
                 $config['baseUrl'] ?? ''
@@ -34,12 +30,7 @@ class AkamaiNetstorageServiceProvider extends ServiceProvider
         });
     }
 
-    /**
-     *
-     * @param array $config
-     * @return array
-     */
-    private function paraseConfig(array $config): array
+    private static function parseConfig(array $config): array
     {
         return [
             'signer' => [
@@ -48,7 +39,7 @@ class AkamaiNetstorageServiceProvider extends ServiceProvider
             ],
             'edgegrid' => [
                 'base_uri' => $config['hostname'] ?? '',
-                'timeout' => $config['timeout'],
+                'timeout' => $config['timeout'] ?? 300,
             ],
         ];
     }
