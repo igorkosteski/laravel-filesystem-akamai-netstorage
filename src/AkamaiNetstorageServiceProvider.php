@@ -16,7 +16,16 @@ class AkamaiNetstorageServiceProvider extends ServiceProvider {
     {
         Storage::extend('akamai', function (Application $app, array $config) {
             $adapter = new AkamaiNetStorageAdapter(
-                (new AkamaiNetStorageClientFactory(self::parseConfig($config)))->getClient(),
+                (new AkamaiNetStorageClientFactory([
+                    'signer' => [
+                        'key' => $config['key'] ?? '',
+                        'name' => $config['keyName'] ?? '',
+                    ],
+                    'edgegrid' => [
+                        'base_uri' => $config['hostname'] ?? '',
+                        'timeout' => $config['timeout'] ?? 300,
+                    ],
+                ]))->getClient(),
                 $config['cpCode'] ?? '',
                 $config['basePath'] ?? '',
                 $config['baseUrl'] ?? ''
@@ -28,19 +37,5 @@ class AkamaiNetstorageServiceProvider extends ServiceProvider {
                 $config
             );
         });
-    }
-
-    private static function parseConfig(array $config): array
-    {
-        return [
-            'signer' => [
-                'key' => $config['key'] ?? '',
-                'name' => $config['keyName'] ?? '',
-            ],
-            'edgegrid' => [
-                'base_uri' => $config['hostname'] ?? '',
-                'timeout' => $config['timeout'] ?? 300,
-            ],
-        ];
     }
 }
